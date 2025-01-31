@@ -3,17 +3,17 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <header className="text-reddish bg-creamish top-0 z-50">
-        <div className="container mx-auto my-0 flex flex-row md:flex-row md:px-5 md:py-5 sm:py-0 px-5 items-center">
+      <header className="bg-blue-400">
+        <div className="flex items-center">
           {/* <!-- name and logo on navbar --> */}
-          <div className="mt-3">
-            <a className="flex items-center text-gray-900 mb-2 md:mb-0">
+          <div>
+            <a className="flex items-center text-gray-900">
               <img
-                src="img/egg_seller-removebg-logo.png"
-                alt="icon"
-                className="h-16 w-16"
+                src={"/egg_seller-removebg-logo.png"}
+                alt="kuku-shop-icon"
+                className="h-25 w-25"
               />
-              <span className="ml-3 md:text-lg font-extrabold sm:text-lg">
+              <span className="ml-3 md:text-2xl font-extrabold sm:text-lg">
                 Kuku Shop
               </span>
             </a>
