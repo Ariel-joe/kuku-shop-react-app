@@ -3,8 +3,8 @@ import Iframe from "react-iframe";
 const ContactSection = () => {
   return (
     <>
-      <section id="Contact" className="text-gray-600 body-font relative">
-        <h2 className="container px-5 mx-auto text-reddish mt-20 text-3xl font-semibold">
+      <section className="text-gray-600 body-font relative">
+        <h2 className="container px-5 mx-auto text-(--reddish) mt-20 text-3xl font-semibold">
           CONTACT US
         </h2>
 
@@ -75,7 +75,7 @@ const ContactSection = () => {
                 className="w-full bg-white rounded border border-gray-300 focus:border-reddish focus:ring-2 focus:ring-darkBrownish h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-greyish rounded text-lg">
+            <button className="text-(--darkBrownish) bg-(--creamish) border-0 py-2 px-6 focus:outline-none hover:bg-greyish rounded text-lg">
               Submit
             </button>
           </div>

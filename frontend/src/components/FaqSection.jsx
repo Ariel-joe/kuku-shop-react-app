@@ -1,7 +1,7 @@
 const FaqSection = () => {
   return (
     <>
-      <section className="py-10 bg-creamish sm:py-16 lg:py-24">
+      <section className="py-10 bg-(--creamish) text-(--darkBrownish) sm:py-16 lg:py-24">
         <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-darkBrownish sm:text-4xl lg:text-5xl">
@@ -14,7 +14,7 @@ const FaqSection = () => {
 
           <div className="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-16 gap-x-20">
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-darkBrownish rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-(--darkBrownish) rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -29,7 +29,7 @@ const FaqSection = () => {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-darkBrownish rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-(--darkBrownish) rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -44,7 +44,7 @@ const FaqSection = () => {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-darkBrownish rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-(--darkBrownish) rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -59,7 +59,7 @@ const FaqSection = () => {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-darkBrownish rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-(--darkBrownish) rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -75,7 +75,7 @@ const FaqSection = () => {
           </div>
 
           <div className="flex items-center justify-center mt-12 md:mt-20">
-            <div className="px-8 py-4 text-center bg-darkBrownish rounded-full">
+            <div className="px-8 py-4 text-center bg-(--darkBrownish) rounded-full">
               <p className="text-gray-50">
                 Didn’t find the answer you are looking for?{" "}
                 <a

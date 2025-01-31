@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section className="py-12">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
+      <section className="py-12 mx-8">
+        <div className="px-4">
+          <div className="text-center xl:flex xl:items-center xl:justify-between">
             <div className="xl:flex xl:items-center xl:justify-start">
               <img
                 src={"/egg_seller-removebg-logo.png"}
@@ -18,7 +18,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
+            <div className="items-center mx-auto">
               <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                 <li>
                   <a
@@ -68,6 +68,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
+              </div>
 
               <div className="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6">
                 <ul className="flex items-center justify-center space-x-8 xl:justify-end">
@@ -122,7 +123,6 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
           </div>
         </div>
       </section>

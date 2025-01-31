@@ -21,7 +21,7 @@ const HeroSection = () => {
               difference with every bite!
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-reddish border-0 py-2 px-6 focus:outline-none hover:bg-darkBrownish rounded text-lg">
+              <button className="bg-(--reddish) text-white bg-reddish border-0 py-2 px-6 focus:outline-none hover:bg-darkBrownish rounded text-lg">
                 Order Now
               </button>
               <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-greyish rounded text-lg">

@@ -3,11 +3,11 @@ import { HiOutlineMenuAlt3, HiOutlineShoppingBag } from "react-icons/hi";
 const Header = () => {
   return (
     <>
-      <header className="mx-6 my-3">
+      <header className="px-6 text-(--reddish) bg-(--creamish)">
         <div className="flex items-center">
           {/* <!-- name and logo on navbar --> */}
           <div>
-            <a className="flex items-center text-gray-900">
+            <a className="flex items-center text-black py-4">
               <img
                 src={"/egg_seller-removebg-logo.png"}
                 alt="kuku-shop-icon"
