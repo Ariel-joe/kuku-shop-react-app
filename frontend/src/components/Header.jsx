@@ -1,3 +1,4 @@
+import { Badge, CounterBadge } from "@fluentui/react-badge";
 import { HiOutlineMenuAlt3, HiOutlineShoppingBag } from "react-icons/hi";
 
 const Header = () => {
@@ -35,12 +36,15 @@ const Header = () => {
           </nav>
 
           {/* <!-- cart button --> */}
-          <div>
-            <button className="py-3 px-3">
+          <div className="relative">
+            <button>
               <HiOutlineShoppingBag size={28} />
             </button>
 
             {/* <!-- dot badge --> */}
+            <p className="absolute right-[-2px] bottom-[4px]  w-4 text-center leading-4 bg-(--darkBrownish) text-(--creamish) rounded-full text-[8px]">
+              10
+            </p>
           </div>
 
           {/* <!-- humburger icon --> */}

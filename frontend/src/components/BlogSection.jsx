@@ -1,9 +1,9 @@
 const BlogSection = () => {
   return (
     <>
-      <section id="Blog" className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <h2 className="text-reddish my-5 text-3xl font-semibold">
+          <h2 className="text-(--reddish) my-5 text-3xl font-semibold">
             BLOG POSTS
           </h2>
 
@@ -20,7 +20,7 @@ const BlogSection = () => {
                   </span>
                 </div>
                 <div className="flex-grow pl-6">
-                  <h2 className="tracking-widest text-xs title-font font-medium text-reddish mb-1">
+                  <h2 className="tracking-widest text-xs title-font font-medium text-(--reddish) mb-1">
                     BLOG
                   </h2>
                   <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
@@ -59,7 +59,7 @@ const BlogSection = () => {
                   </span>
                 </div>
                 <div className="flex-grow pl-6">
-                  <h2 className="tracking-widest text-xs title-font font-medium text-reddish mb-1">
+                  <h2 className="tracking-widest text-xs title-font font-medium text-(--reddish) mb-1">
                     BLOG
                   </h2>
                   <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
@@ -98,7 +98,7 @@ const BlogSection = () => {
                   </span>
                 </div>
                 <div className="flex-grow pl-6">
-                  <h2 className="tracking-widest text-xs title-font font-medium text-reddish mb-1">
+                  <h2 className="tracking-widest text-xs title-font font-medium text-(--reddish) mb-1">
                     BLOG
                   </h2>
                   <h1 className="title-font text-xl font-medium text-gray-900 mb-3">

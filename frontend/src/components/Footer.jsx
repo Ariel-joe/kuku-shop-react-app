@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section className="py-12 mx-8">
+      <section className="py-12 px-8 bg-(--darkBrownish)">
         <div className="px-4">
           <div className="text-center xl:flex xl:items-center xl:justify-between">
             <div className="xl:flex xl:items-center xl:justify-start">
@@ -13,7 +13,7 @@ const Footer = () => {
                 height="70px"
                 width="70px"
               />
-              <p className="mt-5 text-sm text-black xl:ml-6 xl:mt-0">
+              <p className="mt-5 text-sm text-(--creamish) xl:ml-6 xl:mt-0">
                 © Copyright 2024 Kuku Shop
               </p>
             </div>
@@ -24,7 +24,7 @@ const Footer = () => {
                   <a
                     href="Products"
                     title=""
-                    className="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                    className="text-sm text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     Our Products
                   </a>
@@ -34,7 +34,7 @@ const Footer = () => {
                   <a
                     href="#Contact"
                     title=""
-                    className="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                    className="text-sm text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     Contact Us
                   </a>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <li>
                   <a
                     title=""
-                    className="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                    className="text-sm text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     Privacy Policy
                   </a>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <li>
                   <a
                     title=""
-                    className="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                    className="text-sm text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     Terms & Conditions
                   </a>
@@ -62,7 +62,7 @@ const Footer = () => {
                   <a
                     href="#Contact"
                     title=""
-                    className="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                    className="text-sm text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     Support
                   </a>
@@ -75,7 +75,7 @@ const Footer = () => {
                   <li>
                     <a
                       title=""
-                      className="block text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                      className="block text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                     >
                       <svg
                         className="w-6 h-6"
@@ -91,7 +91,7 @@ const Footer = () => {
                   <li>
                     <a
                       title=""
-                      className="block text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                      className="block text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                     >
                       <svg
                         className="w-6 h-6"
@@ -107,7 +107,7 @@ const Footer = () => {
                   <li>
                     <a
                       title=""
-                      className="block text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                      className="block text-(--creamish) transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                     >
                       <svg
                         className="w-6 h-6"
