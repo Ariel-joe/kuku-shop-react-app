@@ -1,4 +1,3 @@
-import { Badge, CounterBadge } from "@fluentui/react-badge";
 import { HiOutlineMenuAlt3, HiOutlineShoppingBag } from "react-icons/hi";
 
 const Header = () => {
