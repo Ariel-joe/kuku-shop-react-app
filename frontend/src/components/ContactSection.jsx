@@ -15,10 +15,9 @@ const ContactSection = () => {
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63820.79413929241!2d36.896508!3d-1.294764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f13bd95a385df%3A0xf603c3e52eabaca9!2sDonholm%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1738330506096!5m2!1sen!2ske"
               width="100%"
               height="100%"
-              frameborder="0"
               title="map"
               style={{ border: 0 }}
-              allowFullscreen=""
+              allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
@@ -45,7 +44,7 @@ const ContactSection = () => {
           </div>
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <div className="relative mb-4">
-              <label for="name" className="leading-7 text-sm text-gray-600">
+              <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                 Name
               </label>
               <input
@@ -56,7 +55,7 @@ const ContactSection = () => {
               />
             </div>
             <div className="relative mb-4">
-              <label for="email" className="leading-7 text-sm text-gray-600">
+              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
                 Email
               </label>
               <input
@@ -67,7 +66,7 @@ const ContactSection = () => {
               />
             </div>
             <div className="relative mb-4">
-              <label for="message" className="leading-7 text-sm text-gray-600">
+              <label htmlFor="message" className="leading-7 text-sm text-gray-600">
                 Message
               </label>
               <textarea
