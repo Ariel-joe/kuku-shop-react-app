@@ -1,9 +1,10 @@
 import React from "react";
+import { HiOutlineMenuAlt3, HiOutlineShoppingBag } from "react-icons/hi";
 
 const Header = () => {
   return (
     <>
-      <header className="bg-blue-400">
+      <header>
         <div className="flex items-center">
           {/* <!-- name and logo on navbar --> */}
           <div>
@@ -13,61 +14,42 @@ const Header = () => {
                 alt="kuku-shop-icon"
                 className="h-25 w-25"
               />
-              <span className="ml-3 text-2xl font-extrabold">
-                Kuku Shop
-              </span>
+              <span className="ml-3 text-2xl font-extrabold">Kuku Shop</span>
             </a>
           </div>
 
           {/* <!-- navigation links --> */}
 
           <nav className="flex items-center justify-center mx-auto">
-            <a
-              href="#Home"
-              className="text-xl px-4 py-2"
-            >
+            <a href="#Home" className="text-xl px-4 py-2">
               Home
             </a>
-            <a
-              href="#Products"
-              className="text-xl px-4 py-2"
-            >
+            <a href="#Products" className="text-xl px-4 py-2">
               Products
             </a>
-            <a
-              href="#Contact"
-              className="text-xl px-4 py-2"
-            >
+            <a href="#Contact" className="text-xl px-4 py-2">
               Contact
             </a>
-            <a
-              href="#Blog"
-              className="text-xl px-4 py-2"
-            >
+            <a href="#Blog" className="text-xl px-4 py-2">
               Blog
             </a>
           </nav>
 
           {/* <!-- cart button --> */}
-          <div className="relative ml-auto pr-2">
-            <button className="inline-flex bg-red items-center border-0 py-3 px-3 focus:outline-none  rounded text-base font-semibold md:mt-0">
-              <i className="fa-solid fa-cart-shopping fa-lg"></i>
+          <div>
+            <button className="py-3 px-3">
+              <HiOutlineShoppingBag size={28} />
             </button>
 
             {/* <!-- dot badge --> */}
-            <span className="absolute top-0 right-1 items-center justify-center w-3 h-3 bg-darkBrownish text-white text-xs font-bold -mr-0 -mt-1.5"></span>
           </div>
-          {/* <!-- cart button ends here --> */}
 
           {/* <!-- humburger icon --> */}
           <button
             id="menu-btn"
             className="block hamburger md:hidden focus:outline-none"
           >
-            <i
-              className="fa-solid fa-bars fa-lg"
-              style={{ color: "black" }}
-            ></i>
+            <HiOutlineMenuAlt3 size={30} />
           </button>
           {/* <!-- humburger icon ends --> */}
         </div>
@@ -81,10 +63,7 @@ const Header = () => {
             <a href="#Home" className="text-xl px-4 py-2 ">
               Home
             </a>
-            <a
-              href="#Products"
-              className="text-xl px-4 py-2 "
-            >
+            <a href="#Products" className="text-xl px-4 py-2 ">
               Our Products
             </a>
             <a href="#Contact" className="text-xl px-4 py-2 ">
