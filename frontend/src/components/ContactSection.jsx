@@ -1,4 +1,4 @@
-import React from "react";
+import Iframe from "react-iframe";
 
 const ContactSection = () => {
   return (
@@ -10,20 +10,18 @@ const ContactSection = () => {
 
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            {/* <iframe
+            <iframe
+              className="absolute inset-0"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63820.79413929241!2d36.896508!3d-1.294764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f13bd95a385df%3A0xf603c3e52eabaca9!2sDonholm%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1738330506096!5m2!1sen!2ske"
               width="100%"
               height="100%"
-              className="absolute inset-0"
               frameborder="0"
               title="map"
-              marginheight="0"
-              marginwidth="0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.397605110295!2d36.87590828537089!3d-1.294721461126257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f13bd95a385df%3A0xf603c3e52eabaca9!2sDonholm%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1728750750614!5m2!1sen!2ske"
-              allowfullscreen=""
+              style={{ border: 0 }}
+              allowFullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              style={{border:0, filter: grayscale(1), contrast(1.2), opacity(0.4)}}>
-            </iframe> */}
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">

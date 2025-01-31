@@ -1,4 +1,3 @@
-import React from "react";
 import { HiOutlineMenuAlt3, HiOutlineShoppingBag } from "react-icons/hi";
 
 const Header = () => {

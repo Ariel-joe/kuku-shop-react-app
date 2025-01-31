@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroSection = () => {
   return (
     <>
@@ -7,7 +5,7 @@ const HeroSection = () => {
         id="Home"
         className="relative text-white hero bg-cover bg-center h-[35rem]"
         style={{ backgroundImage: 'url("/hero-section.jpg")' }}
-        >
+      >
         {/* <!-- Overlay Div --> */}
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
 
