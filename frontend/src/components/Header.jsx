@@ -13,7 +13,7 @@ const Header = () => {
                 alt="kuku-shop-icon"
                 className="h-25 w-25"
               />
-              <span className="ml-3 md:text-2xl font-extrabold sm:text-lg">
+              <span className="ml-3 text-2xl font-extrabold">
                 Kuku Shop
               </span>
             </a>
@@ -21,28 +21,28 @@ const Header = () => {
 
           {/* <!-- navigation links --> */}
 
-          <nav className="hidden md:flex flex-wrap items-center text-base justify-center md:ml-auto md:mr-auto">
+          <nav className="flex items-center justify-center mx-auto">
             <a
               href="#Home"
-              className="mr-5 text-xl px-4 py-2 rounded-full hover:bg-greyish"
+              className="text-xl px-4 py-2"
             >
               Home
             </a>
             <a
               href="#Products"
-              className="mr-5 text-xl px-4 py-2 rounded-full hover:bg-greyish"
+              className="text-xl px-4 py-2"
             >
-              Our Products
+              Products
             </a>
             <a
               href="#Contact"
-              className="mr-5 text-xl px-4 py-2 rounded-full hover:bg-greyish"
+              className="text-xl px-4 py-2"
             >
-              Contact Us
+              Contact
             </a>
             <a
               href="#Blog"
-              className="mr-5 text-xl px-4 py-2 rounded-full hover:bg-greyish"
+              className="text-xl px-4 py-2"
             >
               Blog
             </a>
@@ -55,7 +55,7 @@ const Header = () => {
             </button>
 
             {/* <!-- dot badge --> */}
-            <span className="absolute top-0 right-1 items-center justify-center w-3 h-3 bg-darkBrownish text-white text-xs font-bold rounded-full -mr-0 -mt-1.5"></span>
+            <span className="absolute top-0 right-1 items-center justify-center w-3 h-3 bg-darkBrownish text-white text-xs font-bold -mr-0 -mt-1.5"></span>
           </div>
           {/* <!-- cart button ends here --> */}
 
@@ -78,19 +78,19 @@ const Header = () => {
             id="menu"
             className="hidden absolute flex-col items-center md:hidden py-8 mt-10 space-y-6 font-bold bg-white sm:self-center left-6 right-6 drop-shadow-md"
           >
-            <a href="#Home" className="mr-5 text-xl px-4 py-2 rounded-full ">
+            <a href="#Home" className="text-xl px-4 py-2 ">
               Home
             </a>
             <a
               href="#Products"
-              className="mr-5 text-xl px-4 py-2 rounded-full "
+              className="text-xl px-4 py-2 "
             >
               Our Products
             </a>
-            <a href="#Contact" className="mr-5 text-xl px-4 py-2 rounded-full ">
+            <a href="#Contact" className="text-xl px-4 py-2 ">
               Contact Us
             </a>
-            <a href="#Blog" className="mr-5 text-xl px-4 py-2 rounded-full ">
+            <a href="#Blog" className="text-xl px-4 py-2 ">
               Blog
             </a>
           </div>
