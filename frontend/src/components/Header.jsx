@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex items-center">
           {/* <!-- name and logo on navbar --> */}
           <div>
-            <a className="flex items-center text-black py-4">
+            <a className="flex items-center text-black py-1">
               <img
                 src={"/egg_seller-removebg-logo.png"}
                 alt="kuku-shop-icon"
@@ -41,7 +41,7 @@ const Header = () => {
             </button>
 
             {/* <!-- dot badge --> */}
-            <p className="absolute right-[-2px] bottom-[4px]  w-4 text-center leading-4 bg-(--darkBrownish) text-(--creamish) rounded-full text-[8px]">
+            <p className="absolute right-[-4px] bottom-[4px]  w-4 text-center leading-4 bg-(--darkBrownish) text-(--creamish) rounded-full text-[8px]">
               10
             </p>
           </div>
