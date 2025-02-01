@@ -11,11 +11,11 @@ const HeroSection = () => {
 
         {/* <!-- Container for Content --> */}
         <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col justify-center h-full relative z-20">
-          <div className="lg:flex-grow md:w-10/12 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center justify-center">
-            <h1 className="text-4xl sm:text-6xl mb-3 font-extrabold">
+          <div className="lg:flex-grow lg:pr-24 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center justify-center">
+            <h1 className="text-4xl md:text-5xl mb-3 font-extrabold">
               Savor the Flavor of Organic Chicken
             </h1>
-            <p className="mb-8 leading-relaxed text-xl">
+            <p className="mb-8 text-xl">
               Our free-range, organic chicken is raised with care, ensuring a
               healthier choice for you and your family. Experience the
               difference with every bite!
