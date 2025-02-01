@@ -1,4 +1,5 @@
 import { HiOutlineMenuAlt3, HiOutlineShoppingBag } from "react-icons/hi";
+import { Link } from "react-router";
 
 const Header = () => {
   return (
@@ -23,9 +24,9 @@ const Header = () => {
             <a href="#Home" className="text-xl px-4 py-2">
               Home
             </a>
-            <a href="#Products" className="text-xl px-4 py-2">
+            <Link to={"/products"} className="text-xl px-4 py-2">
               Products
-            </a>
+            </Link>
             <a href="#Contact" className="text-xl px-4 py-2">
               Contact
             </a>
