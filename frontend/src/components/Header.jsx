@@ -33,8 +33,8 @@ const Header = () => {
           </nav>
 
           {/* <!-- cart button --> */}
-          <div className="relative">
-            <button>
+          <Link to={"/cart"} className="relative">
+            <button className="cursor-pointer">
               <HiOutlineShoppingBag size={28} />
             </button>
 
@@ -42,7 +42,7 @@ const Header = () => {
             <p className="absolute right-[-4px] bottom-[4px]  w-4 text-center leading-4 bg-(--darkBrownish) text-(--creamish) rounded-full text-[8px]">
               10
             </p>
-          </div>
+          </Link>
 
           {/* <!-- humburger icon --> */}
           <button

@@ -9,7 +9,6 @@ const Homepage = () => {
       <HeroSection />
       <FaqSection />
       <BlogSection />
-      <Footer />
     </>
   );
 };
