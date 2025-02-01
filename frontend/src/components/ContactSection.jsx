@@ -3,12 +3,12 @@ import Iframe from "react-iframe";
 const ContactSection = () => {
   return (
     <>
-      <section className="text-gray-600 body-font relative">
-        <h2 className="container px-5 mx-auto text-(--reddish) mt-20 text-3xl font-semibold">
-          CONTACT US
-        </h2>
+      <section className="text-gray-600 body-font">
+          <h2 className="container px-5 py-8 text-(--reddish) text-3xl font-semibold">
+            Reach out to us
+          </h2>
 
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="container px-5 py-8 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               className="absolute inset-0"
@@ -55,7 +55,10 @@ const ContactSection = () => {
               />
             </div>
             <div className="relative mb-4">
-              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+              <label
+                htmlFor="email"
+                className="leading-7 text-sm text-gray-600"
+              >
                 Email
               </label>
               <input
@@ -66,7 +69,10 @@ const ContactSection = () => {
               />
             </div>
             <div className="relative mb-4">
-              <label htmlFor="message" className="leading-7 text-sm text-gray-600">
+              <label
+                htmlFor="message"
+                className="leading-7 text-sm text-gray-600"
+              >
                 Message
               </label>
               <textarea

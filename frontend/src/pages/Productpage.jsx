@@ -1,7 +1,10 @@
+import { ProductSection } from "../components/ProductSection";
 const Productpage = () => {
   return (
     <>
-      <div>this is the product page</div>
+      <div>
+        <ProductSection />
+      </div>
     </>
   );
 };
