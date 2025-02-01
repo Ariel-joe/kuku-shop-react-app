@@ -9,7 +9,6 @@ import { Footer } from "../components/Footer";
 const Homepage = () => {
   return (
     <>
-      <Header />
       <HeroSection />
       <ProductSection />
       <FaqSection />
