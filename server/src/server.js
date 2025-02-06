@@ -8,4 +8,10 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(3100, () => console.log("server running on http://localhost:3005"));
+app.get("/login", (req, res) => {
+    res.json({
+      messsage: "this is the loginpage route",
+    });
+  });
+
+app.listen(3100, () => console.log("server running on http://localhost:3100"));
